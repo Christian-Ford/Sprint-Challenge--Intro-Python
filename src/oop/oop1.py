@@ -17,3 +17,31 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+# Class Set 1
+class Vehicle:
+    pass
+
+# Class Set 2
+class FlightVehicle(Vehicle):
+    pass
+
+class GroundVehicle(Vehicle):
+    pass
+
+
+
+# Class Set 3
+class Starship(FlightVehicle):
+    pass
+
+#Class Set 3
+class Airplane(FlightVehicle):
+    pass
+
+class Car(GroundVehicle):
+    pass
+
+class Motorcycle(GroundVehicle):
+    pass
+
