@@ -31,7 +31,7 @@ cities = []
 
 
 def cityreader(cities=[]):
-    with open('C:\Users\Christian\Programming-Projects\Lambda-Projects\sprint-I\Sprint-Challenge--Intro-Python\src\cityreader/cities.csv') as f:
+    with open('/Users/Christian/Programming-Projects/Lambda-Projects/sprint-I/Sprint-Challenge--Intro-Python/src/cityreader/cities.csv') as f:
         reader = csv.reader(f)
         next(reader)
         for row in reader:
